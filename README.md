@@ -1,4 +1,4 @@
-# PL-SQL_Scripts
+# pl-sql-scripts
 Collection of PL/SQL scripts that I have written that I've used for Oracle database management 
 
 These are various PL/SQL scripts I have written to help me manage Oracle 11g, 12c, and 19c databases on AIX and Linux systems.
