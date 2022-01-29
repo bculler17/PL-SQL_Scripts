@@ -1,6 +1,7 @@
 -- This trigger first requires the following tables to already have been created:
 -- ALL_TRUNC8_PERMS
 -- CAPTURED_TRUNC8_ERRS
+-- Author: Beth Culler
 create or replace trigger sys.truncate_table_pass
 before truncate
 on database
