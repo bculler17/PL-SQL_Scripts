@@ -20,7 +20,7 @@ begin
    v_user := user;
    v_table := ora_dict_obj_name;
    v_owner_tried := ora_dict_obj_owner;
-   if v_user = '<USER GRANTED DROP ANY TABLE PRIVILEGE>' 
+   if v_user = '<USER GRANTED DROP ANY TABLE PRIVILEGE>' and v_owner_tried <> '<USER GRANTED DROP ANY TABLE PRIVILEGE>'
    then
       SELECT TO_CHAR(sysdate, 'DD-MON-YYYY HH24:MI:SS') INTO v_date FROM dual;
       SELECT value INTO v_db_name
